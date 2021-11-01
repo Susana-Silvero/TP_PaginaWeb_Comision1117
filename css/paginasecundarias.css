@@ -1,0 +1,334 @@
+/*_________________________Página IA en el ambito legal____________________________*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Contenedor_Ambitolegal{
+    top: 0;
+    margin-top: auto;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/Ambitolegal.gif);
+}
+.sección_ambitolegal{
+    width: 100%;
+    padding-top: 6%;
+    
+}
+.sección_ambitolegal h1{
+    width: 30%;
+    padding-left: 50px;
+    text-align: left;
+    font-size: 2.5em;
+    color: silver;
+}
+#contenedor_Prometea{
+    width: 100%;
+    height: auto;
+}
+.Articulo_prometea{
+    width: 100%;;
+    padding: 20px;
+    margin-right: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Articulo_prometea h2{
+    color: rgba(114, 166, 218, 0.7);
+    font-size: 1.8em;
+    text-align: center;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.Articulo_prometea p{
+    color: silver;
+    text-align: justify;
+    font-size: 1.3em;
+    padding-bottom: 30px;
+}
+.Prometea_destacar{
+    color: rgba(114, 166, 218, 0.7);
+    padding: 40px;
+    width: 50%;
+    float: left;
+    font-size: 1.2em;
+}
+.Prometea_destacar p{
+    color: silver;
+}
+.uno{
+    font-size: 1.5em;
+}
+.dos{
+    font-size: 1.5em;
+}
+.imagen_prometea{
+    padding-top: 70px;
+    width: 40%;
+    float:right;
+    font-size: 1em;
+}
+.video_prometea{
+    padding-top: 30px;
+    width: 560px;
+    height: 315px;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap; 
+}
+/*__________________________Empieza la seguna página IA en lo emocional_________________________________*/
+.Contenedor_Biometria{
+    top: 0;
+    margin-top: auto;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/inteligencia-artificial1.png);
+}
+.sección_Biometria{
+    width: 100%;
+    padding-top: 6%;
+    
+}
+.sección_Biometria h1{
+    width: 30%;
+    padding-left: 3%;
+    text-align: left;
+    font-size: 2.5em;
+    color: silver;
+}
+.Contenedor_link{
+    margin: 3%;
+}
+.Contenedor_link_a{
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid rgba(114, 166, 218, 0.9);
+    margin-left: 2%;
+    margin-bottom: 31%;
+    width: 10%;
+    font-size: 1.2em;
+    background-color: rgba(102, 102, 109, 0.5);
+}
+
+.Ordenar_todos{
+    margin-top: 5%;
+    padding: 0 5em;
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.notas_varias{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;  
+}
+img{
+    height: 35%;
+    width: 100%;
+}
+.medida_contenido1{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    margin-bottom: -20%;
+}
+.medida_contenido2{
+    width: 50%;
+    padding: 20px;
+    margin-bottom: -13%;
+}
+.medida_contenido3{
+    width: 50%;
+    padding: 20px;
+    margin-bottom: -20%;
+}
+.medida_contenido4{
+    width: 50%;
+    padding: 20px;
+    margin-bottom: -20%;
+}
+.Texto_nota{
+    height: 30%;
+}
+.Texto_nota h2{
+    color:steelblue;
+    font-size: 1.6em;
+}
+.Texto_nota p{
+    color: silver;
+    font-size: 1.2em;
+}
+.Texto_nota hr{
+    color: silver;
+}
+/*___________________________________________La parte responsive________________________________*/
+.conteiner{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+@media all and (max-width: 768px)
+{
+    .medida_contenido1{
+        width: 100%;
+    }
+    .medida_contenido2{
+        width: 100%;
+    }
+    .medida_contenido3{
+        width: 100%;
+    }
+    .medida_contenido4{
+        width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+    .contenedor_principal_form
+    {
+        width: 100%;
+        height: 100%;
+        
+    }
+
+}
+@media all and (max-width: 320px)
+{
+    .medida_contenido1{
+        width: 100%;
+    }
+    .medida_contenido2{
+        width: 100%;
+    }
+    .medida_contenido3{
+        width: 100%;
+    }
+    .medida_contenido4{
+        width: 100%;
+    }
+    .contenedor_principal_form
+    {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/*_______________________________comienza el responsive de la pagina de ambito legal_______________________________*/
+.conteiner{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+@media all and (max-width: 768px)
+ {
+    .Contenedor_Ambitolegal{
+        width: 100%;
+    }
+    .sección_ambitolegal{
+        width: 100%;
+    }
+    .sección_ambitolegal h1{
+        width: 100%;
+    }
+    #contenedor_Prometea{
+    width: 100%;
+    }
+    .Articulo_prometea{
+        width: 100%;    
+    }
+    .Articulo_prometea h2{
+        width: 100%;
+    }
+    .Articulo_prometea p{
+        width: 100%;
+    }
+    .Prometea_destacar{
+        width: 100%;
+    }
+    .Prometea_destacar p{
+        width: 100%;
+    }
+    .uno{
+        width: 100%;
+    }
+    .dos{
+        width: 100%;
+    }
+    .imagen_prometea{
+        width: 100%;
+    }
+    .video_prometea{
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        
+    }
+
+}
+@media all and (max-width: 320px)
+ {
+    .Contenedor_Ambitolegal{
+        width: 100%;
+    }
+    .sección_ambitolegal{
+        width: 100%;
+    }
+    .sección_ambitolegal h1{
+        width: 100%;
+    }
+    #contenedor_Prometea{
+    width: 100%;
+    }
+    .Articulo_prometea{
+        width: 100%;    
+    }
+    .Articulo_prometea h2{
+        width: 100%;
+    }
+    .Articulo_prometea p{
+        width: 100%;
+    }
+    .Prometea_destacar{
+        width: 100%;
+    }
+    .Prometea_destacar p{
+        width: 100%;
+    }
+    .uno{
+        width: 100%;
+    }
+    .dos{
+        width: 100%;
+    }
+    .imagen_prometea{
+        width: 100%;
+    }
+    .video_prometea{
+        width: 100%;
+        
+    }
+
+}
+    
+

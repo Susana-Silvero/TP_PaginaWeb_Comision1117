@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Sector_Form{
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+.Ubicar_Form{
+    width: 20%;
+    margin-right: 50%;
+    margin-left: 30%;
+}
+form{
+    width: 200%;
+    background: rgba(114, 166, 218, 0.2);
+    padding: 2% 3%;
+    box-sizing: border-box;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 1em;
+    text-align: center;
+}
+.Ubicar_Form h3{
+    color: silver;
+    font-size: 1.5em;
+}
+.Ubicar_Form h4{
+    color: silver;
+    font-size: 1em;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 3%;
+    padding: 2%;
+    box-sizing: border-box;
+    font-size: 1em;
+    border-radius: 1em;
+    border: none;
+
+}
+.dar_forma{
+    min-height: 100px;
+    max-height: 150px;
+    max-width: 600px;
+    border: none;
+}
+.Estilo_Boton{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: silver;
+    font-size: 15px;
+}
+.Estilo_Boton:hover{
+    background-color: teal;
+}
+

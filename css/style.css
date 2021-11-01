@@ -1,0 +1,396 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Scheherazade New', serif;
+    background-image: url(../img/gif_fondo.gif);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Contenedor_Body{
+    width: 100%;
+    margin: 0 auto;
+}
+.ordenar_Cabecera{
+    width: 100%;
+    height: 35px;
+    margin-top: 0;
+    margin-right: 0;
+    position: fixed;
+    top: 0;
+}
+
+.Logo{
+    float: left;
+    padding: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    right: 0;
+}
+.Logo1{
+    height: 50px;
+    width: 100px;
+}
+/*_________________________________________________Menu-Navegación____________________________________*/
+.Menu_Contenedor ul{ /*centra*/
+    background-color: rgba(102, 102, 109, 0.5);
+    position: fixed; /* posición fija */
+    top: 0; /*menu margen superior*/
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.Menu_Contenedor ul li{
+    display: flex;
+    justify-content: center;
+}
+
+.Menu_Contenedor ul li a{
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 1.4vw;
+    padding: .6em 1em; /*espacio entre a*/
+}
+.Menu_Contenedor li a:hover{
+    color: rgb(214, 125, 22);
+}
+/*_________________________Banner y titulo________________________________*/
+.Contenedor_banners{
+    margin-top: auto;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/sección.jpg);
+}
+.Forma_titulo{
+    position: relative;
+    left: 41%;
+    right: 50%;
+    top: 45%;
+    bottom: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+.Forma_titulo h1{
+    font-size: 2.5em;
+}
+.Forma_titulo p{
+    font-size: 1.8em;
+}
+/*________________________________Quienes Somos_____________________________________________*/
+.Quienes_Somos_presentación_Contenedor{
+    padding: 2%;
+    width: 100%;
+}
+.Quienes_Somos_presentación p{
+    color:black;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: rgba(250, 250, 255, 0.404);
+}
+/*______________________________________seccion de los articulos1 animación con AOS_______________________________________*/
+.Contenedor_Articulos{
+    width: 100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+}
+.Texto_ML{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 0;
+    margin-top: 3%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Texto_ML1 h2{
+    font-size: 2em;
+    color: rgba(114, 166, 218, 0.9);
+}
+.Texto_ML1 p{
+    font-size: 1.1em;
+    color: silver;
+    
+}
+.Texto_SE{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 0;
+    /*margin-top: 40px;*/
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Texto_SE2 h2{
+    font-size: 2em;
+    color: rgba(114, 166, 218, 0.9);
+}
+.Texto_SE2 p{
+    color: silver;
+    font-size: 1.1em;
+}
+.Texto_DL{
+    width: 30%;
+    float: right;
+    text-align: center;
+    padding: 0;
+    margin-top: 0%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Texto_DL3 h2{
+    font-size: 2em;
+    color: rgba(114, 166, 218, 0.9);
+}
+.Texto_DL3 p{
+    color: silver;
+    font-size: 1.1em;
+}
+/*___________________________________Sección texo y video 2_________________________________________*/
+#Texto_Video{
+    width: 100%;
+    margin-top: 5%;
+    padding-left: 20px;
+}
+
+.Titulo_leyenda_video{
+    height: 400px;
+    width: 50%;
+    float: right;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: 0;
+    color: silver;
+}
+.Titulo_leyenda_video h3{
+    padding-top: 20%;
+    text-align: center;
+    font-size: 1.7em;
+}
+.Titulo_leyenda_video p{
+    text-align: center;
+    font-size: 1.1em;
+}
+#Video{
+    float: left;
+    box-sizing: border-box;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+/*___________________________-sección 3_____________________________*/
+#seccion_articulos_imagen{
+    
+    width: 100%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Texto1{
+    width: 30%; /*ancho*/
+    height: 400px; /*alto*/
+    color:silver;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+}
+.Texto1 h3{
+    color: white;
+}
+.imagen1{
+    height: 120px;
+    width: 130px;
+}
+.Texto2{
+    width: 30%; /*ancho*/
+    height: 400px; /*alto*/
+    color:silver;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left;
+    text-align: center;
+}
+.Texto2 h3{
+    color: white;
+}
+
+.imagen2{
+    height: 125px;
+    width: 140px;
+    box-sizing: border-box;
+}
+.imagens_solo{
+    width: 30%;
+    height: 400px;
+    float: right;/*ojo tener en cuenta el lugar para encajar todo*/
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+.imagen3{
+    height: 400px;
+    width: 100%;
+}
+/*______________________________________empieza el footer____________________________________________*/
+.centrar footer{
+    width: 100%;
+    height: 40%;
+}
+.Imagen_texto_footer{
+    height: 205px;
+    width: 33%;
+    float: left;
+    background-color: rgba(102, 102, 109, 0.5);
+}
+
+.logo_footer{
+    margin-left: 5%;
+    height: 20%;
+    width: 20%;
+}
+.titulo_footer h3{
+    margin-right: 10%;
+    font-size: 2em;
+}
+.titulo_footer p{
+    float: left;
+    font-size: 1.2em;
+}
+.datos_ubicación{
+    width: 33%;
+    height: 205px;
+    float: left;
+    text-align: center;
+    background-color: rgba(102, 102, 109, 0.5);
+}
+.redes_sociales{
+    height: 205px;
+    width: 34%;
+    text-align: center;
+    background-color: rgba(102, 102, 109, 0.5);
+    float: right;
+}
+.redes_sociales{
+    color: white;
+}
+.icon-linkedin-squared{
+    color:steelblue;
+}
+.icon-twitter{
+    color: steelblue;
+}
+.icon-facebook-official{
+    color: steelblue;
+}
+/* Inicio de responsive*/
+.Contenedor_Body{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+@media all and (max-width: 768px){
+    .Quienes_Somos_presentación_Contenedor{
+        width: 100%;
+    }
+    .Texto_ML{
+        width: 100%;
+    }
+    .Texto_SE{
+        width: 100%;
+    }
+    .Texto_DL{
+        width: 100%;
+        margin-top: 0%;
+    }
+    .Titulo_leyenda_video{
+        width: 100%;
+    }
+    #Video{
+        width: 100%;
+    }
+    .Texto1{
+        width: 100%;
+    }
+    #seccion_articulos_imagen{
+        width: 100%;
+    }
+    .Texto2{
+        width: 100%;
+    }
+    .imagens_solo{
+        width: 100%;
+    }
+    .contenedor_principal_form
+    {
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+@media all and (max-width: 320px){
+    .Texto_DL{
+        width: 100%;
+        margin-top: 0%;
+    }
+    .Quienes_Somos_presentación_Contenedor{
+        width: 100%;
+    }
+    .Texto_ML{
+        width: 100%;
+    }
+    .Texto_SE{
+        width: 100%;
+    }
+    .Titulo_leyenda_video{
+        width: 100%;
+    }
+    #Video{
+        width: 100%;
+    }
+    .Texto1{
+        width: 100%;
+    }
+    #seccion_articulos_imagen{
+        width: 100%;
+    }
+    .Texto2{
+        width: 100%;
+    }
+    .imagens_solo{
+        width: 100%;
+    }
+    .contenedor_principal_form
+    {
+        width: 100%;
+        height: 100%;
+        
+    }
+}
